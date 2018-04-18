@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# scuba-portugal
+# road repair
 Demonstration site
 
 
@@ -36,4 +35,3 @@ behave
 =======
 # road-dev
 Example of BDD, TDD and DevOps
->>>>>>> e7e867feb81e0040a03bdf2bd0fcbe54a3c34a9d
