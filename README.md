@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # scuba-portugal
 Demonstration site
 
@@ -32,3 +33,7 @@ python manage.py runserver $PORT
 cd tutorial
 behave
 ```
+=======
+# road-dev
+Example of BDD, TDD and DevOps
+>>>>>>> e7e867feb81e0040a03bdf2bd0fcbe54a3c34a9d

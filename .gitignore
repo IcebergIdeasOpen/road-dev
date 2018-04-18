@@ -99,6 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 
 #PyCharm file
 .idea/workspace.xml
@@ -108,3 +109,5 @@ db.sqlite3
 
 # OSX metadata files
 .DS_Store
+=======
+>>>>>>> e7e867feb81e0040a03bdf2bd0fcbe54a3c34a9d
