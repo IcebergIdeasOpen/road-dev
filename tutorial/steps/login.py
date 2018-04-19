@@ -22,6 +22,7 @@ def step_impl(context):
     password.send_keys("pass")
     time.sleep(pause)
     context.browser.find_element_by_id('submit').click()
+    time.sleep(pause)
 
 
 @then("I should see the welcome page")
@@ -38,6 +39,7 @@ def step_impl(context):
     password.send_keys("wrongpass")
     time.sleep(pause)
     context.browser.find_element_by_id('submit').click()
+    time.sleep(pause)
 
 
 @then("I expect to be on the login page")
@@ -60,6 +62,7 @@ def step_impl(context):
     password.send_keys("wrongpass")
     time.sleep(pause)
     context.browser.find_element_by_id('submit').click()
+    time.sleep(pause)
 
 
 @step("I expect to see an missing field error")

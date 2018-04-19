@@ -1,4 +1,5 @@
 import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -11,12 +12,13 @@ def before_all(context):
     else:
         context.browser = webdriver.Chrome()
 
-    context.port = 80
+    context.port = 5000
     if "PORT" in os.environ:
         context.port = os.environ.get("PORT")
 
     primary = context.browser.window_handles[0]
     context.browser.switch_to.window(primary)
+
 
 def after_all(context):
     context.browser.close()
