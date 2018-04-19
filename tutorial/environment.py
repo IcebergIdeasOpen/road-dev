@@ -1,5 +1,4 @@
 import os
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -22,3 +21,4 @@ def before_all(context):
 
 def after_all(context):
     context.browser.close()
+
