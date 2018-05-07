@@ -1,9 +1,9 @@
 {
-  "name": "Scuba - Portugal",
+  "name": "Road - Dev",
   "description": "A Simple python example for BDD/ATDD development",
   "image": "heroku/python",
   "stack": "cedar-14",
-  "repository": "https://github.com/wouterla/scuba-portugal",
+  "repository": "https://github.com/IcebergIdeasOpen/road-dev",
   "keywords": ["python", "django" ],
   "addons": [],
   "environments": {

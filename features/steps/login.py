@@ -34,10 +34,10 @@ def step_impl(context):
 @when("I enter an invalid username or password")
 def step_impl(context):
     username = context.browser.find_element_by_id('username')
-    username.send_keys("wronguser")
+    username.send_keys("wrong user")
     time.sleep(pause)
     password = context.browser.find_element_by_id('password')
-    password.send_keys("wrongpass")
+    password.send_keys("wrong password")
     time.sleep(pause)
     context.browser.find_element_by_id('submit').click()
     time.sleep(pause)
@@ -45,7 +45,7 @@ def step_impl(context):
 
 @then("I expect to be on the login page")
 def step_impl(context):
-    assert context.browser.title == "Scuba Portugal - Login"
+    assert context.browser.title == "Road Improvement System - Login"
 
 
 @step("I expect to see an error message")
@@ -60,7 +60,7 @@ def step_impl(context):
     username.send_keys("")
     time.sleep(pause)
     password = context.browser.find_element_by_id('password')
-    password.send_keys("wrongpass")
+    password.send_keys("wrong password")
     time.sleep(pause)
     context.browser.find_element_by_id('submit').click()
     time.sleep(pause)
