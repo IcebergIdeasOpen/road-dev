@@ -28,7 +28,7 @@ def step_impl(context):
 
 @then("I should see the welcome page")
 def step_impl(context):
-    assert context.browser.title == "Scuba Portugal - Welcome"
+    assert context.browser.title == "Road Improvement System - Welcome"
 
 
 @when("I enter an invalid username or password")
