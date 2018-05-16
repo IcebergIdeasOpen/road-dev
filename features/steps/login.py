@@ -4,7 +4,7 @@ from behave import given, when, then, use_step_matcher, step
 
 use_step_matcher("re")
 
-pause = 1
+pause = 0
 
 
 @given("I am on the login page")

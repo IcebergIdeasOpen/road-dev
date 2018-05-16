@@ -2,7 +2,7 @@ Feature: User Login
 
   As a user
   I want to login to the system
-  So that I can purchase lots of stuff
+  So that I can report a pot hole
 
   Scenario: Valid Login
     Given I am on the login page
@@ -20,3 +20,4 @@ Feature: User Login
     When I am missing a username
     Then I expect to be on the login page
     And I expect to see an missing field error
+
