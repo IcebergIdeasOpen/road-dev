@@ -7,11 +7,11 @@ name = "pypi"
 
 selenium = "*"
 behave = "*"
-"dj-database-url" = "==*"
-django = "==*"
-gunicorn = "==*"
+"dj-database-url" = "*"
+django = "*"
+gunicorn = "*"
 "psycopg2" = "*"
-whitenoise = "==*"
+whitenoise = "*"
 requests = "*"
 
 
