@@ -6,10 +6,6 @@ admin.autodiscover()
 
 import gettingstarted.views
 
-# Examples:
-# url(r'^$', 'gettingstarted.views.home', name='home'),
-# url(r'^blog/', include('blog.urls')),
-
 urlpatterns = [
     url(r'^welcome', gettingstarted.views.welcome, name='welcome'),
     url(r'^logout', gettingstarted.views.logout, name='logout'),
