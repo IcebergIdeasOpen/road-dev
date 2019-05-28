@@ -22,5 +22,5 @@ Feature: User Login
     And I expect to see an missing field error
 
   Scenario: Correct welcome message
-    Given I am on the landing page
+    Given I am on the welcome page
     Then I expect to see the correct welcome message
