@@ -15,5 +15,4 @@ urlpatterns = [
     url(r'^logout', gettingstarted.views.logout, name='logout'),
     url(r'^login', gettingstarted.views.login, name='login'),
     url(r'^$', gettingstarted.views.index, name='index'),
-    url(r'^admin/', include(admin.site.urls)),
 ]
