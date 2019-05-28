@@ -9,8 +9,11 @@ pause = 0
 
 @given("I am on the login page")
 def step_impl(context):
-    context.browser.get('http://localhost:' + str(context.port) + '/login')
-    print('http://localhost:' + str(context.port) + '/login')
+    # context.browser.get('http://localhost:' + str(context.port) + '/login')
+    context.browser.get('https://road-dev.herokuapp.com/login/')
+    # print('http://localhost:' + str(context.port) + '/login')
+    assert context.browser.title == "Road Improvement System - Login"
+
     time.sleep(pause)
 
 
