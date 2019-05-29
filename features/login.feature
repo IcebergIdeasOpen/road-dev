@@ -20,7 +20,3 @@ Feature: User Login
     When I am missing a username
     Then I expect to be on the login page
     And I expect to see an missing field error
-
-  Scenario: Correct welcome message
-    Given I am on the welcome page
-    Then I expect to see the correct welcome message

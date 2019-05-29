@@ -83,6 +83,5 @@ def step_impl(context):
 
 @then("I expect to see the correct welcome message")
 def step_impl(context):
-    # welcome_message = context.browser.find_element_by_id('welcome').text
-    # assert welcome_message == "Welcome to the Road Improvement System!\nThe best site for information on pot holes."
-    pass
+    welcome_message = context.browser.find_element_by_id('welcome').text
+    assert welcome_message == "Welcome to the Road Improvement System!\nThe best site for information on pot holes."
