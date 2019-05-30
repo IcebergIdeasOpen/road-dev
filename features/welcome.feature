@@ -6,4 +6,10 @@ Feature: Welcome page
 
   Scenario: Correct welcome message
     Given I am on the welcome page
+    When This cool class shows up to listen to me wave my arms
     Then I expect to see the correct welcome message
+
+  Scenario: Looking for book recommendation
+    Given Monique is on the welcome page
+    When She selects the book recommendation button
+    Then Monique see the book Extreme Programming Installed

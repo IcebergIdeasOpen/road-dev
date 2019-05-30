@@ -85,3 +85,11 @@ def step_impl(context):
 def step_impl(context):
     welcome_message = context.browser.find_element_by_id('welcome').text
     assert welcome_message == "Welcome to the Road Improvement System!\nThe best site for information on pot holes."
+
+
+@when("This cool class shows up to listen to me wave my arms")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    raise NotImplementedError(u'STEP: When This cool class shows up to listen to me wave my arms')
