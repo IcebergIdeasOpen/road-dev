@@ -1,4 +1,4 @@
-from datetime import time
+import time
 
 from behave import *
 
@@ -15,12 +15,9 @@ def step_impl(context):
 def step_impl(context):
     book_button = context.browser.find_element_by_id('recommendation')
     book_button.click()
-    time.sleep(4)
 
 
 @then("Monique see the book Extreme Programming Installed")
 def step_impl(context):
-    """
-    :type context: behave.runner.Context
-    """
-    raise NotImplementedError(u'STEP: Then Monique see the book Extreme Programming Installed')
+    authors = context.browser.find_element_by_id('recommendation')
+    assert 'Chet Hendrickson' in authors
