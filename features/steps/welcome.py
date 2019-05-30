@@ -19,5 +19,5 @@ def step_impl(context):
 
 @then("Monique see the book Extreme Programming Installed")
 def step_impl(context):
-    authors = context.browser.find_element_by_id('recommendation')
+    authors = context.browser.find_element_by_id('authors')
     assert 'Chet Hendrickson' in authors
